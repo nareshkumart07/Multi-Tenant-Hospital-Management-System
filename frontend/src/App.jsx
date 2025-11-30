@@ -7,7 +7,7 @@ import {
 // --- CONFIG ---
 // CHANGED: Reverted to standard URL for universal compatibility in the editor.
 // For production (Vite), you can uncomment: const API_URL = import.meta.env.VITE_API_URL;
-const API_URL = ' https://multi-tenant-hospital-management-system.onrender.com';
+const API_URL = ' https://multi-tenant-hospital-management-system.onrender.com/api';
 
 // --- CONTEXT ---
 const AuthContext = createContext(null);
